@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Login</title>
+    {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+    {% block stylesheets %}
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+    {% endblock %}
+
+    {% block javascripts %}
+        <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+    {% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+<script src="{{ asset('JS/index.js') }}"></script>
+</body>
+</html>
